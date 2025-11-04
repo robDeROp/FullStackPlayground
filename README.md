@@ -10,9 +10,9 @@ Het doel van dit project is om ervaring op te doen met uiteenlopende **frontend-
 
 Deze monorepo dient als een **praktisch leerlab** waarin ik:
 
-* Experimenteer met verschillende **web frameworks** (Next.js, Vue, SvelteKit, Express, FastAPI, enz.)
-* Werk met diverse **programmeertalen** (TypeScript, JavaScript, Python, PHP, SQL)
-* Oefen met **databasebeheer** via Docker (PostgreSQL of andere SQL-varianten)
+* Experimenteer met verschillende **web frameworks**
+* Werk met diverse **programmeertalen**
+* Oefen met **databasebeheer** via Docker
 * Test **API-architecturen**, design patterns en deploymentstrategieën
 * Documenteer **best practices**, setups en herbruikbare snippets
 
@@ -29,53 +29,6 @@ In plaats van losse proefprojecten verspreid over mijn computer te hebben, gebru
 2. **Sneller te refereren** — bij nieuwe projecten of jobs kan ik meteen zien *hoe ik iets eerder heb aangepakt*.
 3. **Consistent te oefenen** — dezelfde database en basisopzet gebruiken om technologieën objectief te vergelijken.
 4. **Mijn groei te documenteren** — wat ik leer, welke keuzes ik maak, en hoe ik ze technisch implementeer.
-
----
-
-## 🏗️ Structuur (concept)
-
-```
-FullStackPlayground/
-├─ Frontend/
-│  ├─ web-next/         # Next.js (React + API routes)
-│  ├─ web-vue/          # Vue 3 met Vite
-│  └─ web-svelte/       # SvelteKit
-│
-├─ Server/
-│  ├─ api-express/      # Node/Express REST API
-│  ├─ api-fastapi/      # Python/FastAPI API
-│  └─ api-php/          # PHP/Slim API
-│
-├─ packages/
-│  └─ db/               # Prisma schema (gedeelde SQL database)
-│
-├─ docker-compose.yml   # Lokale PostgreSQL database via Docker
-├─ .env.example
-└─ README.md
-```
-
----
-
-## ⚙️ Technische doelen
-
-| Domein              | Tools & Frameworks                                                  |
-| ------------------- | ------------------------------------------------------------------- |
-| **Frontend**        | Next.js, Vue, SvelteKit, HTML/CSS                                   |
-| **Backend**         | Express (Node), FastAPI (Python), PHP (Slim)                        |
-| **Database**        | PostgreSQL (via Docker Compose)                                     |
-| **Infra & tooling** | pnpm workspaces, Turborepo (eventueel), Prisma ORM                  |
-| **Doel**            | Eén monorepo met consistente codekwaliteit, linting en documentatie |
-
----
-
-## 🚀 Toekomstige plannen
-
-* Opzetten van een gedeelde lokale database met **Prisma + PostgreSQL**
-* Basis REST API’s in Express en FastAPI
-* Frontend prototypes met Next.js, Vue en SvelteKit
-* CI/CD via GitHub Actions
-* Documentatie van setups en leermomenten per onderdeel
-* (Optioneel) Auth / OAuth integratie voor oefening
 
 ---
 
