@@ -109,5 +109,4 @@ Deze repository is daar het bewijs van: geen eindproduct, maar een groeidocument
 
 ## 📜 Licentie
 
-MIT © 2025 [Jouw Naam]
 Vrij te gebruiken, aanpassen en delen — zonder enige garantie.
