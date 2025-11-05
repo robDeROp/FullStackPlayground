@@ -60,6 +60,27 @@ Deze repository is daar het bewijs van: geen eindproduct, maar een groeidocument
 
 ---
 
+## 📁 Repository-structuur
+
+```
+.
+├── frontend/
+│   ├── shared/            # Framework-onafhankelijke UI-componenten en utilities
+│   ├── vue-tailwind-typescript/
+│   └── react-tailwind-typescript/
+├── apis/
+│   ├── express/
+│   └── nestjs/
+├── databases/
+│   └── mysql/             # Docker-setup voor lokale MySQL
+├── packages/              # Gedeelde code (types, utils, component libraries)
+└── README.md
+```
+
+Elke map bevat een eigen `README.md` met setup- en startinstructies. Breid de structuur uit wanneer je nieuwe frameworks of tools wil testen.
+
+---
+
 ## 📜 Licentie
 
 Vrij te gebruiken, aanpassen en delen — zonder enige garantie.
